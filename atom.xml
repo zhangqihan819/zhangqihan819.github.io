@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <author>
+    <name>张淇涵</name>
+  </author>
+  <generator uri="https://hexo.io/">Hexo</generator>
+  <id>https://zhangqihan.top/</id>
+  <link href="https://zhangqihan.top/" rel="alternate"/>
+  <link href="https://zhangqihan.top/atom.xml" rel="self"/>
+  <rights>All rights reserved 2026, 张淇涵</rights>
+  <subtitle>记录学习 · 分享技术 · 热爱生活</subtitle>
+  <title>张淇涵的博客</title>
+  <updated>2026-05-10T16:44:11.137Z</updated>
+  <entry>
+    <author>
+      <name>张淇涵</name>
+    </author>
+    <category term="博客" scheme="https://zhangqihan.top/tags/%E5%8D%9A%E5%AE%A2/"/>
+    <content>
+      <![CDATA[<p>这是我的个人博客，记录学习笔记、技术分享和生活感悟。欢迎关注我的<a href="https://www.douyin.com/user/963688479">抖音</a>！</p>]]>
+    </content>
+    <id>https://zhangqihan.top/2026/05/11/welcome-to-my-blog/</id>
+    <link href="https://zhangqihan.top/2026/05/11/welcome-to-my-blog/"/>
+    <published>2026-05-10T16:44:00.000Z</published>
+    <summary>
+      <![CDATA[<p>这是我的个人博客，记录学习笔记、技术分享和生活感悟。欢迎关注我的<a href="https://www.douyin.com/user/963688479">抖音</a>！</p>]]>
+    </summary>
+    <title>欢迎来到我的博客</title>
+    <updated>2026-05-10T16:44:11.137Z</updated>
+  </entry>
+</feed>
