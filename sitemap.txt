@@ -1,2 +1,4 @@
-http://example.com/2026/05/10/hello-world/
-http://example.com/
+https://zhangqihan.top/exam-scores/index.html
+https://zhangqihan.top/exam_scores.json
+https://zhangqihan.top/2026/05/10/hello-world/
+https://zhangqihan.top/
