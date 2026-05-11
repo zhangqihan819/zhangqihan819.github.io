@@ -1,0 +1,339 @@
+/* ===== 朋友圈页面 ===== */
+# How to apply:
+:
+/* 封面区 */
+.fc-cover {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto 20px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.fc-cover-bg {
+  height: 200px;
+  background: linear-gradient(135deg, #2d3a4a 0%, #1a1a2e 30%, #16213e 60%, #0f3460 100%);
+}
+.fc-cover-mask {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0 20px 20px;
+  background: linear-gradient(transparent, rgba(0,0,0,0.45));
+}
+.fc-user-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 60px;
+}
+.fc-avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  border: 3px solid rgba(255,255,255,0.8);
+  object-fit: cover;
+}
+.fc-nickname {
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 600;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.3);
+}
+
+/* 动态流 */
+.fc-posts {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.fc-card {
+  background: var(--anzhiyu-card-bg);
+  border-radius: 12px;
+  padding: 16px 18px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  transition: box-shadow 0.2s;
+}
+.fc-card:hover {
+  box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
+
+/* 卡片头部 */
+.fc-card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.fc-card-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+.fc-card-meta {
+  line-height: 1.4;
+}
+.fc-card-name {
+  font-size: 0.95em;
+  font-weight: 600;
+  color: var(--anzhiyu-fontcolor);
+}
+.fc-card-time {
+  font-size: 0.78em;
+  color: var(--anzhiyu-secondtext);
+}
+
+/* 文案 */
+.fc-card-body {
+  margin-bottom: 10px;
+}
+.fc-card-text {
+  font-size: 0.95em;
+  line-height: 1.7;
+  color: var(--anzhiyu-fontcolor);
+  word-break: break-word;
+  white-space: pre-wrap;
+}
+
+/* ===== 图片网格 ===== */
+.fc-images {
+  display: grid;
+  gap: 4px;
+  margin-top: 10px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.fc-img-wrap {
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  background: #f0f0f0;
+}
+.fc-img-wrap::before {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+}
+[data-theme="dark"] .fc-img-wrap {
+  background: #1e1e1e;
+}
+.fc-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.fc-img-wrap:hover .fc-img {
+  transform: scale(1.05);
+}
+
+/* 1张图 */
+.fc-grid-1 {
+  grid-template-columns: 1fr;
+  max-width: 300px;
+}
+.fc-grid-1 .fc-img-wrap::before {
+  padding-bottom: 75%;
+}
+
+/* 2-3张图 */
+.fc-grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* 4张图 */
+.fc-grid-4 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* 5-6张图 */
+.fc-grid-6 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* 7-9张图 */
+.fc-grid-9 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* 卡片底部 */
+.fc-card-footer {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid var(--anzhiyu-border);
+}
+.fc-location {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.8em;
+  color: var(--anzhiyu-secondtext);
+}
+.fc-icon {
+  flex-shrink: 0;
+}
+
+/* 空状态 */
+.fc-empty {
+  text-align: center;
+  padding: 60px 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.fc-empty-icon {
+  font-size: 3em;
+  margin-bottom: 12px;
+}
+.fc-empty-text {
+  color: var(--anzhiyu-secondtext);
+  font-size: 0.95em;
+}
+
+/* ===== 灯箱 ===== */
+#fc-lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fc-lightbox-hidden {
+  display: none !important;
+}
+.fc-lightbox-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.92);
+  cursor: pointer;
+}
+.fc-lightbox-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 90vw;
+  max-height: 90vh;
+}
+#fc-lightbox-img {
+  max-width: 90vw;
+  max-height: 85vh;
+  object-fit: contain;
+  border-radius: 4px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* 灯箱按钮 */
+.fc-lightbox-close {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #fff;
+  opacity: 0.8;
+  z-index: 2;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.1);
+  transition: opacity 0.2s, background 0.2s;
+}
+.fc-lightbox-close:hover {
+  opacity: 1;
+  background: rgba(255,255,255,0.2);
+}
+.fc-lightbox-prev,
+.fc-lightbox-next {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #fff;
+  opacity: 0.7;
+  z-index: 2;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.1);
+  transition: opacity 0.2s, background 0.2s;
+}
+.fc-lightbox-prev {
+  left: 16px;
+}
+.fc-lightbox-next {
+  right: 16px;
+}
+.fc-lightbox-prev:hover,
+.fc-lightbox-next:hover {
+  opacity: 1;
+  background: rgba(255,255,255,0.25);
+}
+.fc-lightbox-counter {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 0.9em;
+  opacity: 0.8;
+  z-index: 2;
+  background: rgba(0,0,0,0.4);
+  padding: 6px 16px;
+  border-radius: 20px;
+}
+
+/* ===== 响应式 ===== */
+@media screen and (max-width: 768px) {
+  .fc-cover {
+    border-radius: 0;
+    margin-bottom: 12px;
+  }
+  .fc-cover-bg {
+    height: 160px;
+  }
+  .fc-avatar {
+    width: 48px;
+    height: 48px;
+  }
+  .fc-posts {
+    padding: 0 8px;
+  }
+  .fc-card {
+    border-radius: 8px;
+    padding: 14px 12px;
+    margin-bottom: 10px;
+  }
+  .fc-grid-1 {
+    max-width: 100%;
+  }
+  .fc-lightbox-prev,
+  .fc-lightbox-next {
+    width: 36px;
+    height: 36px;
+  }
+  .fc-lightbox-prev {
+    left: 8px;
+  }
+  .fc-lightbox-next {
+    right: 8px;
+  }
+}
