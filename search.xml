@@ -1,16 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>欢迎来到我的博客</title>
-    <url>/2026/05/11/welcome-to-my-blog/</url>
-    <content><![CDATA[这是我的个人博客，记录学习笔记、技术分享和生活感悟。欢迎关注我的抖音！
+    <title>判断推理-逻辑判断精讲</title>
+    <url>/2026/05/11/%E5%88%A4%E6%96%AD%E6%8E%A8%E7%90%86-%E9%80%BB%E8%BE%91%E5%88%A4%E6%96%AD%E7%B2%BE%E8%AE%B2/</url>
+    <content><![CDATA[逻辑判断题型一、必然性推理直言命题
+全称肯定：所有S都是P
+全称否定：所有S都不是P
+特称肯定：有些S是P
+特称否定：有些S不是P
+
+假言命题
+
+
+类型
+公式
+推理规则
+
+
+
+充分条件
+如果A则B (A→B)
+肯前肯后，否后否前
+
+
+必要条件
+只有A才B (B→A)
+否前否后，肯后肯前
+
+
+二、可能性推理常见题型
+削弱型：找到选项最能削弱题干论证
+加强型：找到选项最能支持题干论证
+结论型：根据题干信息推出合理结论
+
+解题口诀必然推理记公式，可能推理找漏洞。削弱切断因果链，加强补全逻辑桥。
 ]]></content>
       <categories>
-        <category>生活日常</category>
+        <category>学习笔记</category>
+        <category>行测</category>
+        <category>判断推理</category>
       </categories>
       <tags>
-        <tag>博客</tag>
-        <tag>随笔</tag>
+        <tag>公考</tag>
+        <tag>行测</tag>
+        <tag>判断推理</tag>
+        <tag>逻辑</tag>
       </tags>
   </entry>
   <entry>
@@ -74,50 +108,59 @@
       </tags>
   </entry>
   <entry>
-    <title>判断推理-逻辑判断精讲</title>
-    <url>/2026/05/11/%E5%88%A4%E6%96%AD%E6%8E%A8%E7%90%86-%E9%80%BB%E8%BE%91%E5%88%A4%E6%96%AD%E7%B2%BE%E8%AE%B2/</url>
-    <content><![CDATA[逻辑判断题型一、必然性推理直言命题
-全称肯定：所有S都是P
-全称否定：所有S都不是P
-特称肯定：有些S是P
-特称否定：有些S不是P
+    <title>我的第一篇学习笔记</title>
+    <url>/2026/05/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[写在前面这是我的第一篇学习笔记，记录了学习 Hexo 博客搭建的过程。
+今天学到了什么1. 创建文章使用命令：
+npx hexo new post &quot;文章标题&quot;
 
-假言命题
+2. Markdown 常用语法
 
 
-类型
-公式
-推理规则
+功能
+语法
+效果
 
 
 
-充分条件
-如果A则B (A→B)
-肯前肯后，否后否前
+标题
+## 二级标题
+文章小标题
 
 
-必要条件
-只有A才B (B→A)
-否前否后，肯后肯前
+粗体
+**文字**
+粗体
 
 
-二、可能性推理常见题型
-削弱型：找到选项最能削弱题干论证
-加强型：找到选项最能支持题干论证
-结论型：根据题干信息推出合理结论
+斜体
+*文字*
+斜体
 
-解题口诀必然推理记公式，可能推理找漏洞。削弱切断因果链，加强补全逻辑桥。
+
+链接
+[文字](网址)
+超链接
+
+
+图片
+![描述](图片地址)
+插入图片
+
+
+3. VSCode 真是太好用了
+左边写文章
+右边实时预览
+一键提交部署
+
+总结今天迈出了第一步，继续加油！
 ]]></content>
       <categories>
         <category>学习笔记</category>
-        <category>行测</category>
-        <category>判断推理</category>
       </categories>
       <tags>
-        <tag>公考</tag>
-        <tag>行测</tag>
-        <tag>判断推理</tag>
-        <tag>逻辑</tag>
+        <tag>Hexo</tag>
+        <tag>教程</tag>
       </tags>
   </entry>
   <entry>
@@ -177,117 +220,16 @@
       </tags>
   </entry>
   <entry>
-    <title>我的第一篇学习笔记</title>
-    <url>/2026/05/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[写在前面这是我的第一篇学习笔记，记录了学习 Hexo 博客搭建的过程。
-今天学到了什么1. 创建文章使用命令：
-npx hexo new post &quot;文章标题&quot;
-
-2. Markdown 常用语法
-
-
-功能
-语法
-效果
-
-
-
-标题
-## 二级标题
-文章小标题
-
-
-粗体
-**文字**
-粗体
-
-
-斜体
-*文字*
-斜体
-
-
-链接
-[文字](网址)
-超链接
-
-
-图片
-![描述](图片地址)
-插入图片
-
-
-3. VSCode 真是太好用了
-左边写文章
-右边实时预览
-一键提交部署
-
-总结今天迈出了第一步，继续加油！
+    <title>欢迎来到我的博客</title>
+    <url>/2026/05/11/welcome-to-my-blog/</url>
+    <content><![CDATA[这是我的个人博客，记录学习笔记、技术分享和生活感悟。欢迎关注我的抖音！
 ]]></content>
       <categories>
-        <category>学习笔记</category>
+        <category>生活日常</category>
       </categories>
       <tags>
-        <tag>Hexo</tag>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>资料分析-速算技巧汇总</title>
-    <url>/2026/05/11/%E8%B5%84%E6%96%99%E5%88%86%E6%9E%90-%E9%80%9F%E7%AE%97%E6%8A%80%E5%B7%A7%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[资料分析常用公式一、增长类
-
-
-指标
-公式
-
-
-
-增长率
-(现期 - 基期) ÷ 基期 × 100%
-
-
-增长量
-现期 - 基期
-
-
-年均增长率
-(末期&#x2F;初期)^(1&#x2F;n) - 1
-
-
-二、比重类
-比重 &#x3D; 部分 ÷ 整体 × 100%
-比重差 &#x3D; 现期比重 - 基期比重
-
-三、速算技巧截位直除法将多位数截取前2-3位进行计算，适用于除法：
-
-选项差距大 → 截2位
-选项差距小 → 截3位
-
-特征数字法常用分数换算：
-
-1&#x2F;2 &#x3D; 50%
-1&#x2F;3 ≈ 33.3%
-1&#x2F;4 &#x3D; 25%
-1&#x2F;5 &#x3D; 20%
-1&#x2F;6 ≈ 16.7%
-1&#x2F;8 &#x3D; 12.5%
-
-比较技巧分子分母比较法：
-
-分子大、分母小 → 分数大
-分子小、分母大 → 分数小
-
-]]></content>
-      <categories>
-        <category>学习笔记</category>
-        <category>行测</category>
-        <category>资料分析</category>
-      </categories>
-      <tags>
-        <tag>公考</tag>
-        <tag>行测</tag>
-        <tag>资料分析</tag>
+        <tag>博客</tag>
+        <tag>随笔</tag>
       </tags>
   </entry>
   <entry>
@@ -403,12 +345,62 @@ npx hexo new post &quot;文章标题&quot;
       </tags>
   </entry>
   <entry>
-    <title>判断推理-逻辑判断精讲</title>
-    <url>/2026/05/11/%E5%88%A4%E6%96%AD%E6%8E%A8%E7%90%86-%E9%80%BB%E8%BE%91%E5%88%A4%E6%96%AD%E7%B2%BE%E8%AE%B2/%E5%88%A4%E6%96%AD%E6%8E%A8%E7%90%86-%E9%80%BB%E8%BE%91%E5%88%A4%E6%96%AD%E7%B2%BE%E8%AE%B2/</url>
-    <content><![CDATA[]]></content>
+    <title>资料分析-速算技巧汇总</title>
+    <url>/2026/05/11/%E8%B5%84%E6%96%99%E5%88%86%E6%9E%90-%E9%80%9F%E7%AE%97%E6%8A%80%E5%B7%A7%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[资料分析常用公式一、增长类
+
+
+指标
+公式
+
+
+
+增长率
+(现期 - 基期) ÷ 基期 × 100%
+
+
+增长量
+现期 - 基期
+
+
+年均增长率
+(末期&#x2F;初期)^(1&#x2F;n) - 1
+
+
+二、比重类
+比重 &#x3D; 部分 ÷ 整体 × 100%
+比重差 &#x3D; 现期比重 - 基期比重
+
+三、速算技巧截位直除法将多位数截取前2-3位进行计算，适用于除法：
+
+选项差距大 → 截2位
+选项差距小 → 截3位
+
+特征数字法常用分数换算：
+
+1&#x2F;2 &#x3D; 50%
+1&#x2F;3 ≈ 33.3%
+1&#x2F;4 &#x3D; 25%
+1&#x2F;5 &#x3D; 20%
+1&#x2F;6 ≈ 16.7%
+1&#x2F;8 &#x3D; 12.5%
+
+比较技巧分子分母比较法：
+
+分子大、分母小 → 分数大
+分子小、分母大 → 分数小
+
+]]></content>
       <categories>
         <category>学习笔记</category>
+        <category>行测</category>
+        <category>资料分析</category>
       </categories>
+      <tags>
+        <tag>公考</tag>
+        <tag>行测</tag>
+        <tag>资料分析</tag>
+      </tags>
   </entry>
   <entry>
     <title>政治理论-马克思主义哲学原理</title>
@@ -439,6 +431,14 @@ npx hexo new post &quot;文章标题&quot;
         <tag>政治理论</tag>
         <tag>马克思主义</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>判断推理-逻辑判断精讲</title>
+    <url>/2026/05/11/%E5%88%A4%E6%96%AD%E6%8E%A8%E7%90%86-%E9%80%BB%E8%BE%91%E5%88%A4%E6%96%AD%E7%B2%BE%E8%AE%B2/%E5%88%A4%E6%96%AD%E6%8E%A8%E7%90%86-%E9%80%BB%E8%BE%91%E5%88%A4%E6%96%AD%E7%B2%BE%E8%AE%B2/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
   </entry>
   <entry>
     <title>常识判断-科技与人文常识</title>
