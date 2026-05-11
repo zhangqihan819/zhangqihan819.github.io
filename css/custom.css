@@ -1,0 +1,6 @@
+/* 音乐馆全屏 — 隐藏播放器右下角悬浮按钮 */
+#anMusicBtnGetSong,
+#anMusicRefreshBtn,
+#anMusicSwitching {
+  display: none !important;
+}

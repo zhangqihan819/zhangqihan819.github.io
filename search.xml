@@ -5,8 +5,479 @@
     <url>/2026/05/11/welcome-to-my-blog/</url>
     <content><![CDATA[这是我的个人博客，记录学习笔记、技术分享和生活感悟。欢迎关注我的抖音！
 ]]></content>
+      <categories>
+        <category>生活日常</category>
+      </categories>
       <tags>
         <tag>博客</tag>
+        <tag>随笔</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>常识判断-科技与人文常识</title>
+    <url>/2026/05/11/%E5%B8%B8%E8%AF%86%E5%88%A4%E6%96%AD-%E7%A7%91%E6%8A%80%E4%B8%8E%E4%BA%BA%E6%96%87%E5%B8%B8%E8%AF%86/</url>
+    <content><![CDATA[科技常识中国古代科技成就
+四大发明：造纸术、印刷术、火药、指南针
+天文学：《甘石星经》是世界最早的天文学著作
+数学：《九章算术》标志着中国古代数学体系的形成
+
+现代科技前沿
+人工智能
+量子计算
+基因编辑
+新能源技术
+
+人文常识古代思想流派
+
+
+流派
+代表人物
+核心思想
+
+
+
+儒家
+孔子、孟子
+仁、义、礼、智、信
+
+
+道家
+老子、庄子
+无为而治、道法自然
+
+
+法家
+韩非子
+以法治国
+
+
+墨家
+墨子
+兼爱非攻
+
+
+经典著作
+《论语》— 孔子及其弟子言行录
+《道德经》— 道家哲学经典
+《史记》— 第一部纪传体通史
+
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+        <category>行测</category>
+        <category>常识判断</category>
+      </categories>
+      <tags>
+        <tag>公考</tag>
+        <tag>行测</tag>
+        <tag>常识判断</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>判断推理-逻辑判断精讲</title>
+    <url>/2026/05/11/%E5%88%A4%E6%96%AD%E6%8E%A8%E7%90%86-%E9%80%BB%E8%BE%91%E5%88%A4%E6%96%AD%E7%B2%BE%E8%AE%B2/</url>
+    <content><![CDATA[逻辑判断题型一、必然性推理直言命题
+全称肯定：所有S都是P
+全称否定：所有S都不是P
+特称肯定：有些S是P
+特称否定：有些S不是P
+
+假言命题
+
+
+类型
+公式
+推理规则
+
+
+
+充分条件
+如果A则B (A→B)
+肯前肯后，否后否前
+
+
+必要条件
+只有A才B (B→A)
+否前否后，肯后肯前
+
+
+二、可能性推理常见题型
+削弱型：找到选项最能削弱题干论证
+加强型：找到选项最能支持题干论证
+结论型：根据题干信息推出合理结论
+
+解题口诀必然推理记公式，可能推理找漏洞。削弱切断因果链，加强补全逻辑桥。
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+        <category>行测</category>
+        <category>判断推理</category>
+      </categories>
+      <tags>
+        <tag>公考</tag>
+        <tag>行测</tag>
+        <tag>判断推理</tag>
+        <tag>逻辑</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数量关系-工程问题与行程问题</title>
+    <url>/2026/05/11/%E6%95%B0%E9%87%8F%E5%85%B3%E7%B3%BB-%E5%B7%A5%E7%A8%8B%E9%97%AE%E9%A2%98%E4%B8%8E%E8%A1%8C%E7%A8%8B%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[工程问题核心公式工作总量 = 工作效率 × 工作时间
+
+解题方法1. 赋值法当题目只给时间不给具体量时，将工作总量赋值为时间的最小公倍数。
+例：甲单独做10天完成，乙单独做15天完成，合作需几天？
+赋值总量为30（10和15的最小公倍数）：
+
+甲效率：30÷10&#x3D;3
+乙效率：30÷15&#x3D;2
+合作：30÷(3+2)&#x3D;6天
+
+2. 交替合作甲做1天乙做1天交替，求完成时间：
+
+计算一个周期的完成量
+总时间 &#x3D; 周期数 × 周期天数 + 剩余天数
+
+行程问题核心公式路程 = 速度 × 时间
+
+常见题型
+
+
+类型
+公式
+
+
+
+相遇问题
+路程和 &#x3D; 速度和 × 时间
+
+
+追及问题
+路程差 &#x3D; 速度差 × 时间
+
+
+环形追及
+每追上一次，快者多跑一圈
+
+
+流水行船
+顺水速度 &#x3D; 船速 + 水速
+
+
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+        <category>行测</category>
+        <category>数量关系</category>
+      </categories>
+      <tags>
+        <tag>公考</tag>
+        <tag>行测</tag>
+        <tag>数量关系</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的第一篇学习笔记</title>
+    <url>/2026/05/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[写在前面这是我的第一篇学习笔记，记录了学习 Hexo 博客搭建的过程。
+今天学到了什么1. 创建文章使用命令：
+npx hexo new post &quot;文章标题&quot;
+
+2. Markdown 常用语法
+
+
+功能
+语法
+效果
+
+
+
+标题
+## 二级标题
+文章小标题
+
+
+粗体
+**文字**
+粗体
+
+
+斜体
+*文字*
+斜体
+
+
+链接
+[文字](网址)
+超链接
+
+
+图片
+![描述](图片地址)
+插入图片
+
+
+3. VSCode 真是太好用了
+左边写文章
+右边实时预览
+一键提交部署
+
+总结今天迈出了第一步，继续加油！
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>资料分析-速算技巧汇总</title>
+    <url>/2026/05/11/%E8%B5%84%E6%96%99%E5%88%86%E6%9E%90-%E9%80%9F%E7%AE%97%E6%8A%80%E5%B7%A7%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[资料分析常用公式一、增长类
+
+
+指标
+公式
+
+
+
+增长率
+(现期 - 基期) ÷ 基期 × 100%
+
+
+增长量
+现期 - 基期
+
+
+年均增长率
+(末期&#x2F;初期)^(1&#x2F;n) - 1
+
+
+二、比重类
+比重 &#x3D; 部分 ÷ 整体 × 100%
+比重差 &#x3D; 现期比重 - 基期比重
+
+三、速算技巧截位直除法将多位数截取前2-3位进行计算，适用于除法：
+
+选项差距大 → 截2位
+选项差距小 → 截3位
+
+特征数字法常用分数换算：
+
+1&#x2F;2 &#x3D; 50%
+1&#x2F;3 ≈ 33.3%
+1&#x2F;4 &#x3D; 25%
+1&#x2F;5 &#x3D; 20%
+1&#x2F;6 ≈ 16.7%
+1&#x2F;8 &#x3D; 12.5%
+
+比较技巧分子分母比较法：
+
+分子大、分母小 → 分数大
+分子小、分母大 → 分数小
+
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+        <category>行测</category>
+        <category>资料分析</category>
+      </categories>
+      <tags>
+        <tag>公考</tag>
+        <tag>行测</tag>
+        <tag>资料分析</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>申论-大作文写作框架</title>
+    <url>/2026/05/11/%E7%94%B3%E8%AE%BA-%E5%A4%A7%E4%BD%9C%E6%96%87%E5%86%99%E4%BD%9C%E6%A1%86%E6%9E%B6/</url>
+    <content><![CDATA[申论大作文框架一、审题（5分钟）
+明确主题词
+确定写作文体（议论文为主）
+看清字数要求（通常1000-1200字）
+
+二、立意（5分钟）
+中心论点：一句话概括你的核心观点
+分论点：2-3个支撑中心论点的角度
+
+三、结构模板五段三分式第一段：开头（150字）  - 背景引入 + 提出中心论点第二段：分论点一（250字）  - 观点句 + 说理论证 + 事例论证 + 小结第三段：分论点二（250字）  - 观点句 + 说理论证 + 事例论证 + 小结第四段：分论点三（250字）  - 观点句 + 说理论证 + 事例论证 + 小结第五段：结尾（150字）  - 总结全文 + 升华主题 + 展望号召
+
+四、加分技巧
+开头用名言：引用领导人讲话或经典名言
+论证多样化：举例论证 + 道理论证 + 对比论证
+结尾有高度：上升到国家战略或时代意义
+卷面整洁：字迹工整、段落分明
+
+常用主题素材
+
+
+主题
+名言&#x2F;金句
+
+
+
+奋斗
+幸福都是奋斗出来的
+
+
+创新
+创新是引领发展的第一动力
+
+
+民生
+人民对美好生活的向往就是我们的奋斗目标
+
+
+生态
+绿水青山就是金山银山
+
+
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+        <category>申论</category>
+      </categories>
+      <tags>
+        <tag>公考</tag>
+        <tag>申论</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>言语理解-选词填空技巧</title>
+    <url>/2026/05/11/%E8%A8%80%E8%AF%AD%E7%90%86%E8%A7%A3-%E9%80%89%E8%AF%8D%E5%A1%AB%E7%A9%BA%E6%8A%80%E5%B7%A7/</url>
+    <content><![CDATA[选词填空核心技巧一、语境分析根据上下文逻辑关系判断空缺处应填入的词语：
+
+转折关系：但是、然而、却 → 前后词义相反
+递进关系：甚至、而且、更 → 后文程度更深
+并列关系：和、与、同时 → 前后词义相近
+因果关系：因为、所以、因此 → 前后逻辑对应
+
+二、词语辨析常见近义词辨析
+
+
+词语A
+词语B
+区别
+
+
+
+遏制
+遏止
+遏制侧重”控制”，遏止侧重”使停止”
+
+
+推脱
+推托
+推脱责任、推托邀约
+
+
+贯穿
+贯串
+贯穿多用于抽象事物
+
+
+三、固定搭配
+改善 + 关系&#x2F;生活
+改进 + 技术&#x2F;方法
+推动 + 发展&#x2F;进步
+促进 + 经济增长&#x2F;交流
+
+做题步骤
+先读完整句，把握大意
+寻找逻辑标志词
+排除明显不合适的选项
+对剩余选项做语境验证
+
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+        <category>行测</category>
+        <category>言语理解</category>
+      </categories>
+      <tags>
+        <tag>公考</tag>
+        <tag>行测</tag>
+        <tag>言语理解</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>判断推理-逻辑判断精讲</title>
+    <url>/2026/05/11/%E5%88%A4%E6%96%AD%E6%8E%A8%E7%90%86-%E9%80%BB%E8%BE%91%E5%88%A4%E6%96%AD%E7%B2%BE%E8%AE%B2/%E5%88%A4%E6%96%AD%E6%8E%A8%E7%90%86-%E9%80%BB%E8%BE%91%E5%88%A4%E6%96%AD%E7%B2%BE%E8%AE%B2/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>政治理论-马克思主义哲学原理</title>
+    <url>/2026/05/11/%E6%94%BF%E6%B2%BB%E7%90%86%E8%AE%BA-%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%93%B2%E5%AD%A6%E5%8E%9F%E7%90%86/%E6%94%BF%E6%B2%BB%E7%90%86%E8%AE%BA-%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%93%B2%E5%AD%A6%E5%8E%9F%E7%90%86/</url>
+    <content><![CDATA[马克思主义哲学概述马克思主义哲学是科学的世界观和方法论。
+唯物辩证法三大规律
+对立统一规律
+量变质变规律
+否定之否定规律
+
+五大范畴
+原因与结果
+必然性与偶然性
+可能性与现实性
+内容与形式
+本质与现象
+
+实践与认识实践是认识的基础，实践对认识起决定性作用。
+]]></content>
+      <categories>
+        <category>学习笔记</category>
+        <category>行测</category>
+        <category>政治理论</category>
+      </categories>
+      <tags>
+        <tag>公考</tag>
+        <tag>行测</tag>
+        <tag>政治理论</tag>
+        <tag>马克思主义</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>常识判断-科技与人文常识</title>
+    <url>/2026/05/11/%E5%B8%B8%E8%AF%86%E5%88%A4%E6%96%AD-%E7%A7%91%E6%8A%80%E4%B8%8E%E4%BA%BA%E6%96%87%E5%B8%B8%E8%AF%86/%E5%B8%B8%E8%AF%86%E5%88%A4%E6%96%AD-%E7%A7%91%E6%8A%80%E4%B8%8E%E4%BA%BA%E6%96%87%E5%B8%B8%E8%AF%86/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>数量关系-工程问题与行程问题</title>
+    <url>/2026/05/11/%E6%95%B0%E9%87%8F%E5%85%B3%E7%B3%BB-%E5%B7%A5%E7%A8%8B%E9%97%AE%E9%A2%98%E4%B8%8E%E8%A1%8C%E7%A8%8B%E9%97%AE%E9%A2%98/%E6%95%B0%E9%87%8F%E5%85%B3%E7%B3%BB-%E5%B7%A5%E7%A8%8B%E9%97%AE%E9%A2%98%E4%B8%8E%E8%A1%8C%E7%A8%8B%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>申论-大作文写作框架</title>
+    <url>/2026/05/11/%E7%94%B3%E8%AE%BA-%E5%A4%A7%E4%BD%9C%E6%96%87%E5%86%99%E4%BD%9C%E6%A1%86%E6%9E%B6/%E7%94%B3%E8%AE%BA-%E5%A4%A7%E4%BD%9C%E6%96%87%E5%86%99%E4%BD%9C%E6%A1%86%E6%9E%B6/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>资料分析-速算技巧汇总</title>
+    <url>/2026/05/11/%E8%B5%84%E6%96%99%E5%88%86%E6%9E%90-%E9%80%9F%E7%AE%97%E6%8A%80%E5%B7%A7%E6%B1%87%E6%80%BB/%E8%B5%84%E6%96%99%E5%88%86%E6%9E%90-%E9%80%9F%E7%AE%97%E6%8A%80%E5%B7%A7%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>言语理解-选词填空技巧</title>
+    <url>/2026/05/11/%E8%A8%80%E8%AF%AD%E7%90%86%E8%A7%A3-%E9%80%89%E8%AF%8D%E5%A1%AB%E7%A9%BA%E6%8A%80%E5%B7%A7/%E8%A8%80%E8%AF%AD%E7%90%86%E8%A7%A3-%E9%80%89%E8%AF%8D%E5%A1%AB%E7%A9%BA%E6%8A%80%E5%B7%A7/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>学习笔记</category>
+      </categories>
   </entry>
 </search>
